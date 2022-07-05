@@ -1,0 +1,7 @@
+--very simple script that give u inf health
+godmode = true;
+
+while godmode == true do
+    game.ReplicatedStorage.Remotes.CharacterEvent:FireServer("FallDamage",-9e9)
+    wait(1)
+end
